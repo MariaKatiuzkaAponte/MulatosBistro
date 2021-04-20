@@ -1,0 +1,137 @@
+.contenido{
+
+    background-image: url(../assets/Fondocomidas2.png);
+    display: flex;
+}
+.tit-reserva{
+
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-size: 80px;
+     padding-bottom: 20px;
+   margin-left: 20px;
+   color: #fff;
+    
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-img{
+
+    display: flex;
+}
+
+.formulario{
+
+    padding: 30px;
+    width: 50%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 780px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-right: 50px;
+} 
+
+
+
+form{
+
+    
+    width: 90%;
+
+}
+
+.fotorestaurante{
+    margin: 15px;
+}
+/* Footer */
+
+/* Redes sociales */
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+.redesyubic{
+    background-color: rgb(233, 58, 15);  
+    height: 470px; 
+    display: flex;
+    background-color: #000;
+}
+
+.redessociales{
+    width: 650px;
+}
+
+.redessociales img{
+    background-color: rgb(233, 58, 15);
+    border-radius: 10px;
+}
+
+
+
+.titulosiguenos{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-style: oblique;
+   
+margin-left: 200px;
+}
+
+.redsocial {
+
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.iconored , .predsocial {
+
+    padding: 5px;
+}
+
+.predsocial {
+
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+.ubicacion{
+    padding: 30px;
+    
+}
+
+.ubicacion2{
+    border-radius: 20px;
+    height: 400px;
+}
+
+
+
+
+
+
+.copy{
+   
+    text-align: center;
+    background-color: rgb(233, 58, 15);
+    color: #fff;
+    padding: 10px;
+    height: 35px;
+
+}

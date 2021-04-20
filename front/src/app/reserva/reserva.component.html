@@ -1,0 +1,142 @@
+
+<div class="contenido">
+
+    
+    
+    
+    <div class="form-img">
+        
+        <div class="formulario">
+            <form>
+                <div class="container tit-reserva">
+                    <h2>¡Reserva con Nosotros tu Mesa!</h2>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" [(ngModel)]="modeloReserva.nombre" class="form-control" id="nombre" name="nombre" placeholder="Reserva a nombre de:">
+                    <label for="floatingInput">Reserva a nombre de:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" [(ngModel)]="modeloReserva.numero" class="form-control" id="numer" name="numero" placeholder="Número de contacto">
+                    <label for="floatingInput">Número de Contacto:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" [(ngModel)]="modeloReserva.email" class="form-control" id="email" name="email" placeholder="Email">
+                    <label for="floatingInput">Email:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" [(ngModel)]="modeloReserva.personas" class="form-control" id="personas" name="personas" placeholder="Cantidad de Personas">
+                    <label for="floatingInput">Cantidad de Personas: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string" [(ngModel)]="modeloReserva.fecha" class="form-control" id="fecha" name="fecha" placeholder="Fecha deseada de reserva">
+                    <label for="floatingInput">Fecha deseada de reserva: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string" [(ngModel)]="modeloReserva.hora" class="form-control" id="hora" name="hora" placeholder="Hora de reservación">
+                    <label for="floatingInput">Hora de reservación: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string" [(ngModel)]="modeloReserva.celebracion" class="form-control" id="celebracion" name="celebracion" placeholder="Celebrarás algo especial:">
+                    <label for="floatingInput">Celebrarás algo especial: </label>
+                  </div>
+                  
+                <button type="submit" (click)="crearReserva()" class="btn btn-primary">Reservar</button>
+                
+              </form>
+
+        </div>
+        
+        
+          <div>
+              <img class="fotoRestaurante" src="../assets/fotoresturante1.jpg" alt="foto del restaurante" height="400px" width="460px">
+              <br>
+              <img class="fotoRestaurante" src="../assets/fotorestaurante2.jpg" alt="foto del restaurante2" height="400px" width="460px">
+          </div>
+    
+
+    </div>
+  
+</div>
+
+<footer>
+
+  <div class="redesyubic">
+
+      <section class="redessociales">
+
+
+          <h2 class="titulosiguenos"> ¡Síguenos!</h2>
+
+          <!-- Whatsapp -->
+
+          <div class="redsocial">
+
+              <div class="iconored">
+                  <a href="https://api.whatsapp.com/send?phone=573209056457&text=Hola!%F0%9F%91%8B%20quisiera%20hacer%20un%20pedido...%20mi%20nombre%20es%20"
+                      target="_blank"> <img src="../assets/whatsapp.png" alt="iconowha" width="30px" height="30px">
+                  </a>
+              </div>
+
+              <div class="predsocial">
+
+                  <p>3209056457</p>
+
+              </div>
+
+          </div>
+
+          <!-- Facebook -->
+
+          <div class="redsocial">
+
+              <div class="iconored">
+                  <a href="https://www.facebook.com/" target="_blank"> <img src="../assets/facebook.png" alt="iconofb"
+                          width="30px" height="30px">
+                  </a>
+              </div>
+
+              <div class="predsocial">
+
+                  <p>Mulato's Bistro</p>
+
+              </div>
+
+          </div>
+
+          <!-- Instagram -->
+
+          <div class="redsocial">
+
+              <div class="iconored">
+                  <a href="https://www.instagram.com/mulatos_bistro/" target="_blank"> <img
+                          src="../assets/instagram.png" alt="iconoig" width="30px" height="30px">
+                  </a>
+              </div>
+
+              <div class="predsocial">
+
+                  <p>@Mulatos_Bistro</p>
+
+              </div>
+          </div>
+
+
+      </section>
+
+      <section class="ubicacion">
+
+          <iframe class="ubicacion2"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8459117294947!2d-74.14594438618495!3d4.62156559664268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f3832544f17%3A0x6d91f3060ccfceef!2sMulato&#39;s%20bistro!5e0!3m2!1ses!2sco!4v1616531766197!5m2!1ses!2sco"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </section>
+  </div>
+
+
+  
+
+  <div class="copy">
+      <p>Elaborado por María Katiuzka Aponte y Neil Serrano</p>
+  </div>
+
+</footer>

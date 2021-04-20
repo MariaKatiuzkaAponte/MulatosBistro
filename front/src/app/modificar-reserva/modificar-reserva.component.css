@@ -1,0 +1,42 @@
+
+.tit-reserva{
+
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-size: 80px;
+    
+   padding: 40px;
+   margin-left: 450px;
+    
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-img{
+
+    display: flex;
+}
+
+.formulario{
+
+    width: 40%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+} 
+
+
+
+form{
+
+    
+    width: 90%;
+
+}

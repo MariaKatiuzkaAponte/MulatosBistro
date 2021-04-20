@@ -1,0 +1,52 @@
+
+<div class="contenido">
+
+    <div class="container tit-reserva">
+        <h2>Modificar reserva</h2>
+    </div>
+    
+    
+    <div class="form-img">
+        <div class="formulario">
+            <form #updateForm="ngForm"  (ngSubmit)="updateReserva()" >
+                <div class="form-floating mb-3">
+                    <input type="text"  class="form-control" #nombre="ngModel" [(ngModel)]="reserva.nombre" id="nombre" name="nombre" placeholder="Reserva a nombre de:">
+                    <label for="floatingInput">Reserva a nombre de:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number"  class="form-control" #numero="ngModel" [(ngModel)]="reserva.numero" id="numer" name="numero" placeholder="Número de contacto">
+                    <label for="floatingInput">Número de Contacto:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email"  class="form-control" #email="ngModel" [(ngModel)]="reserva.email" id="email" name="email" placeholder="Email">
+                    <label for="floatingInput">Email:</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number"  class="form-control" #personas="ngModel" [(ngModel)]="reserva.personas" id="personas" name="personas" placeholder="Cantidad de Personas">
+                    <label for="floatingInput">Cantidad de Personas: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string"  class="form-control" #fecha="ngModel" [(ngModel)]="reserva.fecha" id="fecha" name="fecha" placeholder="Fecha deseada de reserva">
+                    <label for="floatingInput">Fecha deseada de reserva: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string" class="form-control"  #hora="ngModel" [(ngModel)]="reserva.hora" id="hora" name="hora" placeholder="Hora de reservación">
+                    <label for="floatingInput">Hora de reservación: </label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="string"  class="form-control" #celebracion="ngModel" [(ngModel)]="reserva.celebracion" id="celebracion" name="celebracion" placeholder="Celebrarás algo especial:">
+                    <label for="floatingInput">Celebrarás algo especial: </label>
+                  </div>
+                  
+                <button type="submit"  class="btn btn-success">Modificar</button>
+                
+              </form>
+
+        </div>
+        
+        
+
+
+    </div>
+  
+</div>

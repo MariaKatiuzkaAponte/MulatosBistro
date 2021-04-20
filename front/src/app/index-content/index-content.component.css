@@ -1,0 +1,817 @@
+body {
+
+    margin: 0px;
+}
+
+
+.contenido_inicial {
+
+    padding: 10px;
+    display: flex;
+    background: url(../assets/fondomadera.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 500px;
+   
+
+}
+
+.introduccion {
+    width: 700px;
+}
+
+
+h1 {
+    text-align: center;
+    
+    font-size: 80px;
+    font-family: Freestyle Script;
+    border-bottom:  rgb(233, 58, 15) solid ;
+    margin-right: 50px;
+    
+    padding-top: 40px;
+    color: #fff;
+    
+}
+
+.parrafo1 {
+
+    font-size: 25px;
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    color: #fff;
+
+}
+
+.slider{
+
+    width: 700px;
+    padding-top: 40px;
+}
+
+.fotoSlider {
+    border-radius: 10px;
+}
+
+/* Segunda Parte, Quienes Somos */
+
+
+.contenido2{
+    background: url(../assets/fondomadera.jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0 20px;
+
+}
+
+.tituloqs {
+
+    text-align: center;
+    font-size: 65px;
+    font-family: Freestyle Script;
+    color:#fff;
+    padding: 70px auto;
+   
+}   
+.quienesSomos{
+    display: flex;
+    margin: 20px auto;
+}
+
+
+
+
+.fotogrupo img{
+
+    border-radius: 70px;
+}
+
+.parrafoqs {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    color: #fff;
+    margin: auto;
+    padding: 0 auto;
+}
+
+
+/* carnes */
+
+.carnes {
+    display: flex;
+}
+.parrafocarnes {
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: auto;
+
+}
+
+.fotocarne{
+
+    padding-left: 50px;
+}
+
+.carne{
+    border-radius: 70px;
+
+}
+
+/*  Variedad de bebidas*/
+
+.Variedad{
+
+    display: flex;
+    padding: 20px auto;
+}
+
+.fotohamb{
+    padding: 30px;
+}
+
+.parrafohamb{
+    font-size: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:auto;
+    
+
+
+}
+
+.fotogrupo{
+    border-radius: 70px;
+}
+
+/* Footer */
+
+/* Redes sociales */
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.redesyubic{
+    background-color: rgb(233, 58, 15);  
+    height: 470px; 
+    display: flex;
+}
+
+.redessociales{
+    width: 650px;
+}
+
+
+
+.titulosiguenos{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-style: oblique;
+   
+margin-left: 200px;
+}
+
+.redsocial {
+
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.iconored , .predsocial {
+
+    padding: 5px;
+}
+
+.predsocial {
+
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+.ubicacion{
+    padding: 30px;
+    
+}
+
+.ubicacion2{
+    border-radius: 20px;
+    height: 400px;
+}
+
+/* Contacto */
+
+.contactanos{
+    background-color: #000;
+}
+
+.titulocontacto{
+
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+}
+
+.form{
+    margin-left: 350px;
+    padding-bottom: 30px;
+    
+}
+
+input, textarea {
+display: block;
+padding: 10px;
+width: 600px;
+border-radius: 10px  ;
+margin-bottom: 20px;
+box-sizing: border-box;
+
+}
+
+.input{
+
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+
+}
+
+.enviar{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+    background-color: rgb(233, 58, 15);
+    color: #fff;
+    padding-bottom: 15px;
+
+}
+
+
+.copy{
+   
+    text-align: center;
+    background-color: rgb(233, 58, 15);
+    color: #fff;
+    padding: 10px;
+    height: 35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+/* Pantalla de la compu mas pequeña */
+
+/* 970*/
+
+
+@media screen and (max-width: 970px){
+
+body{
+    margin: 0;
+}
+
+.contenido_inicial {
+
+    display: block;
+    height: 850px;
+    
+}
+
+h1,  .parrafo1 {
+
+    text-align: center;
+   
+    
+}
+
+h1{
+    margin-left: 240px;
+}
+
+.parrafo1{
+    margin-left: 100px;
+    width: 700px;
+}
+
+.slider{
+    width: 700
+    px;
+    padding-left: 160px;
+}
+
+
+
+/* Quienes Somos */
+
+.quienesSomos{
+    display: block;
+}
+
+
+.tituloqs {
+
+   margin-left: 200px;
+   width: 600px;
+   padding-top: 30px;
+    
+   
+}
+
+.parrafoqs {
+    
+    width: 800px;
+    padding-left: 200px;
+    margin-top: 0;
+}
+
+.fotogrupo {
+    width: 700px;
+    margin-left: 130px;
+   
+}
+
+
+/* carnes */
+
+.carnes {
+    display: block;
+}
+.parrafocarnes {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: justify;
+    width: 800px;
+    padding-left: 200px;
+
+}
+
+.fotocarne{
+    padding-left: 200px;
+
+}
+
+/* Hamburguesa */
+
+.hamburguesa{
+
+    display: block;
+}
+
+.fotohamb{
+    padding: 0px;
+}
+
+.parrafohamb{
+    width: 800px;
+    padding-left: 200px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    
+
+}
+
+/* FOOTER */
+
+/* Redes sociales */
+.redesyubic{
+    
+    display: block;
+    height: 800px; 
+}
+
+.titulosiguenos{
+    margin-left: 350px;
+}
+
+.redsocial{
+    margin-left: 350px;
+}
+
+.ubicacion2{
+
+    width: 800px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+   }
+
+.form{
+    margin-left: 180px;
+    
+}
+
+}
+
+/* 767*/
+
+
+@media screen and (max-width: 767px){
+
+    
+    h1,  .parrafo1 {
+    
+        text-align: center;
+       
+        
+    }
+    
+    h1{
+        margin-left: 100px;
+    }
+    
+    .parrafo1{
+        margin-left: 30px;
+        width: 700px;
+    }
+    
+    .slider{
+        width: 700px;
+        padding-left: 80px;
+    }
+    
+    
+    
+    /* Quienes Somos */
+
+    
+    .tituloqs {
+    
+       margin-left: 100px;
+       width: 600px;
+       padding-top: 30px;
+        
+       
+    }
+    
+    .parrafoqs {
+        
+        width: 700px;
+        padding-left: 100px;
+        margin-top: 0;
+    }
+    
+    .fotogrupo {
+        width: 700px;
+        margin-left: 50px;
+       
+    }
+    
+    
+    /* carnes */
+    
+    .carnes {
+        display: block;
+    }
+    .parrafocarnes {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: justify;
+        width: 740px;
+        padding-left: 100px;
+    
+    }
+    
+    .fotocarne{
+        padding-left: 120px;
+    
+    }
+    
+    /* Hamburguesa */
+    
+    .hamburguesa{
+    
+        display: block;
+    }
+    
+    .fotohamb{
+        padding: 0px;
+    }
+    
+    .parrafohamb{
+        width: 700px;
+        padding-left: 100px;
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        
+    
+    }
+    /*  FOOTER */
+    /* Redes sociales */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 250px;
+    }
+    
+    .redsocial{
+        margin-left: 250px;
+    }
+    
+    .ubicacion2{
+    
+        width: 700px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 100px;
+        
+    }
+    
+    }
+
+    /* 600*/
+
+
+@media screen and (max-width: 600px){
+
+
+    
+    h1{
+        margin-left: 150px;
+        
+        width: 300px;
+    }
+    
+    .parrafo1{
+        margin-left: 30px;
+        width: 560px;
+    }
+    
+    .slider{
+        width: 500px;
+        padding-left: 80px;
+        padding-top: 0 ;
+    }
+    
+    
+    
+    /* Quienes Somos */
+
+    
+    .tituloqs {
+    
+       margin-left: 30px;
+       width: 500px;
+       padding-top: 50px;
+        
+       
+    }
+    
+    .parrafoqs {
+        
+        width: 600px;
+        padding-left: 50px;
+        margin-top: 0;
+    }
+    
+    .fotogrupo {
+        width: 600px;
+        margin-left: 20px;
+       
+    }
+    
+    
+    /* carnes */
+    
+    .carnes {
+        display: block;
+    }
+    .parrafocarnes {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: justify;
+        width: 630px;
+        padding-left: 50px;
+    
+    }
+    
+    .fotocarne{
+        padding-left: 50px;
+    
+    }
+    
+    /* Hamburguesa */
+    
+    .hamburguesa{
+    
+        display: block;
+    }
+    
+    .fotohamb{
+        padding: 0px;
+    }
+    
+    .parrafohamb{
+        width: 550px;
+        padding-left: 80px;
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        
+    
+    }
+
+    /* FOOTER */
+    
+    /* Redes sociales */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 150px;
+    }
+    
+    .redsocial{
+        margin-left: 150px;
+    }
+    
+    .ubicacion2{
+    
+        width: 500px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 100px;
+        
+    }
+
+    .input, .enviar{
+        width: 400px;
+    }
+    
+    }
+
+     /* 400*/
+
+
+@media screen and (max-width: 400px){
+
+    .contenido_inicial{
+        height: 1000px;
+    }
+
+
+    
+    h1{
+        margin-left: 50px;
+        
+        width: 300px;
+    }
+    
+    .parrafo1{
+        margin-left: 5px;
+        width: 400px;
+    }
+    
+    .slider{
+        width: 350px;
+        
+        padding-left: 30px;
+        padding-top: 0 ;
+    }
+    
+    
+    
+    /* Quienes Somos */
+
+    .contenido2{
+        height: 3300px;
+    }
+
+    
+    .tituloqs {
+    
+       margin-left: 0px;
+       width: 400px;
+       padding-top: 100px;
+        
+       
+    }
+    
+    .parrafoqs {
+        
+        width: 400px;
+        padding-left: 50px;
+        margin-top: 0;
+    }
+    
+    .fotogrupo {
+        width: 400px;
+        margin-left: 20px;
+       
+    }
+    
+    
+    /* carnes */
+    
+    .carnes {
+        display: block;
+    }
+    .parrafocarnes {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: justify;
+        width: 400px;
+        padding-left: 50px;
+    
+    }
+
+    .carne{
+        padding-left: 0px;
+        width: 300px;
+    }
+    
+    /* Hamburguesa */
+    
+    .hamburguesa{
+    
+        display: block;
+    }
+    
+    .fotohamb{
+        padding: 0px;
+    }
+    
+    .parrafohamb{
+        width: 350px;
+        padding-left: 50px;
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        
+    
+    }
+    
+    /* FOOTER */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 60px;
+    }
+    
+    .redsocial{
+        margin-left: 60px;
+    }
+    
+    .ubicacion2{
+    
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 50px;
+        
+    }
+
+    .input, .enviar{
+        width: 300px;
+    }
+    
+    }

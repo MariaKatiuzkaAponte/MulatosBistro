@@ -1,0 +1,63 @@
+
+<div class="mostrar" > 
+
+    <h1>Mensajes recibidos</h1>
+
+<table class="tabla">   <!-- tr, luego th para las filas y td para el contenido de las filas -->
+
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Email</th>
+        <th>Mensaje</th>
+    </tr>
+
+    <tr *ngFor="let user of users">   <!-- Aqui dice: traigame los usuarios del arreglo users -->
+        <td>{{user.nombre}}</td>
+        <td>{{user.apellido}}</td>
+        <td>{{user.email}}</td> 
+        <td>{{user.mensaje}}</td> 
+        <td> <button class="botonModificar" routerLink='/modificar/{{user._id}}'>Modificar</button> </td>
+        <td><button class="botonModificar" (click)="delete(user)" >Eliminar</button></td>
+        
+    </tr>
+
+</table> 
+
+
+</div>
+
+<div class="mostrar" > 
+
+    <h1>Solicitudes de reserva</h1>
+
+<table class="tabla">   
+
+    <tr>
+        <th>Nombre</th>
+        <th>Número</th>
+        <th>Email</th>
+        <th>Personas</th>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Celebración</th>
+    </tr>
+
+    <tr *ngFor="let reserva of reservas">   
+        <td>{{reserva.nombre}}</td>
+        <td>{{reserva.numero}}</td>
+        <td>{{reserva.email}}</td>
+        <td>{{reserva.personas}}</td>
+        <td>{{reserva.fecha}}</td>
+        <td>{{reserva.hora}}</td>
+        <td>{{reserva.celebracion}}</td>
+       
+        <td> <button class="botonModificar" routerLink='/modificarReserva/{{reserva._id}}'>Modificar</button> </td>
+        <td><button class="botonModificar" (click)="deleteReserva(reserva)" >Eliminar</button></td>
+        
+    </tr>
+
+</table> 
+
+
+</div>

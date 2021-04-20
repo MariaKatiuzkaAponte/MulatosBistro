@@ -1,0 +1,15 @@
+<div class="modificar">
+
+    <h2 class="titulomodificar">Modificar</h2>
+
+    <form class="form" #updateForm="ngForm" (ngSubmit)="update()" >
+
+        <input type="text"  id="nombre" name="nombre" placeholder="Nombre" required class="input" #nombre="ngModel" [(ngModel)]="user.nombre">
+        <input type="text"  id="apellido" name="apellido" placeholder="Apellido" required class="input"  #apellido="ngModel" [(ngModel)]="user.apellido">
+        <input type="email" id="email" name="Email" placeholder="Email" required class="input"  #email="ngModel" [(ngModel)]="user.email">
+        <textarea name="mensaje"  id="textarea" placeholder="Escribe aquí tu mensaje" class="input"  #mensaje="ngModel" [(ngModel)]="user.mensaje"> </textarea>
+        <label for="textarea"></label>
+        <input type="submit"  id="boton" value="Modificar" class="enviar">
+    
+    </form>
+</div>

@@ -1,0 +1,371 @@
+body {
+    margin: 0px;
+}
+
+.contenido-np {
+
+    background-image: url(../assets/fondomadera.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.hamburguesas, .alitas, .chivitos, .choripan, .limonadas {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+
+
+.contenido-np h2 {
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin:auto;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.contenido-np img {
+
+   
+    border-radius: 20px;
+
+}
+
+/* sliders */
+
+.slider2{
+    width: 600px;
+}
+
+.slider{
+    width: 600px;
+    height: 500px;
+}
+
+.sliderlim{
+    width: 400px;
+    height: 700px;
+}
+
+/* Footer */
+
+/* Redes sociales */
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.redesyubic{
+    background-color: rgb(233, 58, 15);  
+    height: 470px; 
+    display: flex;
+}
+
+.redessociales{
+    width: 650px;
+}
+
+
+
+.titulosiguenos{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-style: oblique;
+   
+margin-left: 200px;
+}
+
+.redsocial {
+
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.iconored , .predsocial {
+
+    padding: 5px;
+}
+
+.predsocial {
+
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+.ubicacion{
+    padding: 30px;
+    
+}
+
+.ubicacion2{
+    border-radius: 20px;
+    height: 400px;
+}
+
+/* Contacto */
+
+.contactanos{
+    background-color: #000;
+}
+
+.titulocontacto{
+
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+}
+
+.form{
+    margin-left: 400px;
+    padding-bottom: 30px;
+    
+}
+
+input, textarea {
+display: block;
+padding: 10px;
+width: 600px;
+border-radius: 10px  ;
+margin-bottom: 20px;
+box-sizing: border-box;
+
+}
+
+.input{
+
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+
+}
+
+.enviar{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 20px;
+    background-color: rgb(233, 58, 15);
+    color: #fff;
+    padding-bottom: 15px;
+
+}
+
+
+.copy{
+    
+    text-align: center;
+    background-color: rgb(233, 58, 15);
+    color: #fff;
+    padding: 10px;
+    height: 35px;
+
+}
+
+/*  Responsive 970 */
+
+@media (max-width: 970px) {
+
+    /* FOOTER */
+
+/* Redes sociales */
+.redesyubic{
+    
+    display: block;
+    height: 800px; 
+}
+
+.titulosiguenos{
+    margin-left: 350px;
+}
+
+.redsocial{
+    margin-left: 350px;
+}
+
+.ubicacion2{
+
+    width: 800px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+   }
+
+.form{
+    margin-left: 180px;
+    
+}
+
+
+
+}
+
+/*  Responsive 767 */
+
+@media (max-width: 767px) {
+
+    .contenido-np {
+height: 2500px;
+    } 
+    .contenido-np h2 {
+        font-size: 30px;
+    }
+
+    .slider2{
+        width: 400px;
+    }
+    
+    .slider, .imagen{
+        width: 400px;
+        height: 400px;
+    }
+    
+    .sliderlim{
+        width: 400px;
+        height: 500px;
+    }
+
+    /*  FOOTER */
+    /* Redes sociales */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 250px;
+    }
+    
+    .redsocial{
+        margin-left: 250px;
+    }
+    
+    .ubicacion2{
+    
+        width: 700px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 100px;
+        
+    }
+    
+
+}
+
+/*  Responsive 600 */
+
+@media (max-width: 600px) {
+
+    .contenido-np {
+height: 2400px;
+    } 
+    .contenido-np h2 {
+        font-size: 28px;
+    }
+/* FOOTER */
+    
+    /* Redes sociales */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 150px;
+    }
+    
+    .redsocial{
+        margin-left: 150px;
+    }
+    
+    .ubicacion2{
+    
+        width: 500px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 100px;
+        
+    }
+
+    .input, .enviar{
+        width: 400px;
+    }
+}
+
+/* Responsive 600 */
+@media (max-width: 400px) {
+
+    .contenido-np {
+height: 2000px;
+    } 
+    .contenido-np h2 {
+        font-size: 30px;
+    }
+
+    .slider2{
+        width: 400px;
+    }
+    
+    .slider, .imagen{
+        width: 350px;
+        height: 300px;
+    }
+    
+    .sliderlim{
+        width: 350px;
+        height: 400px;
+    }
+
+    /* FOOTER */
+    .redesyubic{
+        
+        display: block;
+        height: 800px; 
+    }
+    
+    .titulosiguenos{
+        margin-left: 60px;
+    }
+    
+    .redsocial{
+        margin-left: 60px;
+    }
+    
+    .ubicacion2{
+    
+        width: 300px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+       }
+    
+    .form{
+        margin-left: 50px;
+        
+    }
+
+    .input, .enviar{
+        width: 300px;
+    }
+
+}
